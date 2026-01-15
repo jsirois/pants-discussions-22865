@@ -1,0 +1,18 @@
+[GLOBAL]
+pants_version = "2.30.1rc0"
+
+backend_packages.add = [
+  "pants.backend.python",
+]
+
+[python]
+interpreter_constraints = ['==3.14.*']
+
+[pex-cli]
+version = "v2.82.0"
+known_versions = [
+  "v2.82.0|macos_x86_64|6b48461f7ba94ff1702aab287cf8cff0b7baec7b16a4a7b0b86212083b3c8ff9|4955508",
+  "v2.82.0|macos_arm64|6b48461f7ba94ff1702aab287cf8cff0b7baec7b16a4a7b0b86212083b3c8ff9|4955508",
+  "v2.82.0|linux_x86_64|6b48461f7ba94ff1702aab287cf8cff0b7baec7b16a4a7b0b86212083b3c8ff9|4955508",
+  "v2.82.0|linux_arm64|6b48461f7ba94ff1702aab287cf8cff0b7baec7b16a4a7b0b86212083b3c8ff9|4955508"
+]

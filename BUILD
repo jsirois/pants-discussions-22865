@@ -5,7 +5,7 @@ pex_binary(
     script="fortune",
     dependencies=[
         "configuration/riddles.dat",
-	":reqs#fortune",
+        ":reqs#fortune",
     ],
     include_tools=True,
     args=["{pex.env.FORTUNE_FILE}"],

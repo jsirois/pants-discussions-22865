@@ -11,6 +11,6 @@ pex_binary(
     args=["{pex.env.FORTUNE_FILE}"],
     extra_build_args=[
         "--bind-resource-path",
-	"FORTUNE_FILE=configuration/riddles.dat",
+        "FORTUNE_FILE=configuration/riddles.dat",
     ]
 )
